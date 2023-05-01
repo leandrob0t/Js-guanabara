@@ -17,10 +17,14 @@
     <h1>Olá, mundo!!</h1>
     <p>Me livrei...</p>
     <script>
-        // alert('Minha primeira mensagem');
-        // confirm('Está gostando de Js?');
-       var nome = prompt('Qual o seu nome?');
-       alert(`É um grande de prazer te conhecer: ${nome}.`);
+        
+       var n1 = prompt('Digite um número:'); //string
+       var n2 = Number(prompt('Digite outro número:')); //string convertendo diretamente
+       n1 =Number(n1); // transformando string em números;
+      // n2 =Number(n2); // transformando string em números;
+       var soma = n1 + n2;
+       
+       alert(`A soma dos valores é: ${soma}.`) 
        
     </script>
 </body>
